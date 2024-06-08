@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - STEM Camp</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #fdd835; 
+    }
+  </style>
+</head>
+<body class="flex flex-col items-center">
+
+  <nav class="bg-blue-900 text-white w-full py-4 flex justify-between items-center px-6">
+    <div class="flex items-center space-x-4">
+      <span class="font-bold text-lg">Contacto</span>
+    </div>
+    <ul class="flex space-x-6">
+      <li><a href="homepage.html" class="hover:underline">Inicio</a></li>
+      <li><a href="acercade.html" class="hover:underline">Acerca de</a></li>
+      <li><a href="galeria.html" class="hover:underline">Galería</a></li>
+    </ul>
+    <div class="flex space-x-4">
+      <a href="#" class="hover:underline">Facebook</a>
+    </div>
+  </nav>
+
+  
+  <main class="flex flex-col items-center text-center py-20 px-6">
+    <h1 class="text-5xl font-bold text-blue-900 mb-4">Contacto</h1>
+    <p class="text-xl text-pink-700 mb-8">Ponte en contacto con nosotros</p>
+    <form class="w-full max-w-lg">
+      <div class="mb-4">
+        <label class="block text-left text-blue-900 text-sm font-bold mb-2" for="nombre">
+          Nombre
+        </label>
+        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="nombre" type="text" placeholder="Nombre">
+      </div>
+      <div class="mb-4">
+        <label class="block text-left text-blue-900 text-sm font-bold mb-2" for="email">
+          Correo Electrónico
+        </label>
+        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Correo Electrónico">
+      </div>
+      <div class="mb-4">
+        <label class="block text-left text-blue-900 text-sm font-bold mb-2" for="mensaje">
+          Mensaje
+        </label>
+        <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="mensaje" rows="5" placeholder="Escribe tu mensaje aquí"></textarea>
+      </div>
+      <div class="flex items-center justify-between">
+        <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+          Enviar
+        </button>
+      </div>
+    </form>
+  </main>
+
+  
+  <footer class="bg-blue-900 text-white w-full py-4 flex justify-center">
+    <span>Nuestras medidas garantizan la seguridad de sus hijos. <a href="#" class="underline">Más información</a></span>
+  </footer>
+</body>
+</html>
